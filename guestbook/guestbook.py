@@ -29,7 +29,7 @@ MAIN_PAGE_FOOTER_TEMPLATE = """\
 </html>
 """
 
-DEFAULT_GUESTBOOK_NAME = 'default_guestbook'
+DEFAULT_GUESTBOOK_NAME = 'arcadius_guestbook'
 
 # We set a parent key on the 'Greetings' to ensure that they are all
 # in the same entity group. Queries across the single entity group
