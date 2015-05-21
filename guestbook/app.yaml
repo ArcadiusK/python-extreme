@@ -4,11 +4,14 @@ api_version: 1
 threadsafe: true
 
 handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+
 - url: /.*
   script: guestbook.app
 
-  libraries:
+libraries:
 - name: webapp2
   version: latest
-
-  
+- name: jinja2
+  version: latest
