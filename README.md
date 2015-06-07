@@ -6,3 +6,5 @@ python-extreme
 stt
 
 dev_appserver.py helloworld/
+
+CTLR-C
