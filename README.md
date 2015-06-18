@@ -5,6 +5,6 @@ python-extreme
 
 stt
 
-dev_appserver.py helloworld/
+dev_appserver.py .
 
 CTLR-C
